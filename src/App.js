@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Projects from './Projects';
+import Project from './Project';
 import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
       </main>
 
       <Routes>
-        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/projects/:project' element={<Project />} />
       </Routes>
 
       <footer className='m-10 text-white'>
