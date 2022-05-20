@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
-        <div className="text-white mt-10 flex flex-col m-10 px-20">
+        <div className="text-white mt-10 flex items-start flex-col m-10 px-20">
             <h1 className='font-bold text-2xl text-orange-200'>Personal Projects:</h1>
             <ul className="flex flex-col list-disc m-5">
                 <li className='hover:text-orange-700 underline'>

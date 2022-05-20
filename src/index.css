@@ -5,6 +5,7 @@
 
 
 body {
+  color: white;
   margin: auto;
   background-color: rgb(30 58 138);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,6 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+div {
+  align-items: center;
+  margin-top: 2em;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
